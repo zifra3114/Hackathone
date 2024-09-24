@@ -1,0 +1,121 @@
+  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(219, 230, 227);
+    
+    
+}
+form{
+   margin: auto;
+   background-color: rgb(184, 12, 112);
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(245, 5, 145, 0.274);
+   padding: 5px;
+   max-width: 60px;
+   width: 50%;
+   background-image: url(./image.jpeg);
+}
+h1{
+    text-align: center;
+    color: black;
+}
+fieldset{
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 4px 8px rgba(245, 5, 85, 0.5);
+
+
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    box-shadow: 0 4px 8px rgba(245, 5, 85, 0.5);
+}
+label{
+    
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger ;
+    box-shadow: 0 4px 8px rgba(245, 5, 85, 0.5);
+}
+
+input,textarea{
+    margin-top: 4px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:10px ;
+    box-sizing: border-box;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(245, 5, 85, 0.5);
+}
+button{
+    display:block ;
+    width:100% ;
+    background-color: rgb(194, 11, 42);
+    color:black;
+    border:none ;
+    border-radius:50px ;
+    box-shadow: 0 4px 10px rgba(241, 5, 135, 0.5);
+    margin-top: 10px ;
+font-size: 20px ;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+padding: 10px;
+cursor: pointer;
+
+ }
+button:hover{
+color: rgb(243, 89, 148);
+}
+#resume{
+    max-width:600px ;
+    margin:auto ;
+    padding: 20px;
+    border: 2px solid  rgb(9, 9, 10);
+    border-radius:20px ;
+    background-color: rgb(255, 255, 255) ;
+    
+    box-shadow: 0 4px 8px rgba(245, 5, 145, 0.5); 
+    
+ }
+ #resume h2{
+  color: black;
+} 
+
+ form {
+    max-width: 600px;
+    margin: auto; 
+ }
+
+
+
+ #resume-preview {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(9, 9, 10);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(94, 2, 25, 0.5);
+    background-image: url(./image.jpeg);
+}
+
+#resume-preview h2, #resume-preview h3 {
+    color: black; 
+
+}
+
+    
+
+
+
